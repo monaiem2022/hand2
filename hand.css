@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: sans-serif , Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    display: flex;
+    color: #555;
+    background: #ecf0f3;
+}
+
+
+.login-div {
+    height: 100%;
+    width: 100%;
+    background: #ecf0f3;
+    position: relative;
+}
+
+.top {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.top i {
+    color: gray;
+    padding-left: 50px;
+    font-size: 27px;
+    margin-top: 10px;
+    opacity: .7;
+}
+
+.top i:first-child {
+    padding-left: 10px;
+}
+
+
+.gray {
+    position: absolute;
+    top: 52px;
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    color: white;
+}
+
+
+.gray .lock {
+    margin-right: 15px;
+    font-size: 27px;
+    opacity: .6;
+}
+
+.gray button{
+    margin-left: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 6px;
+}
+
+.period {
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.till {
+    height: 40px;
+    width: 100px;
+    border-radius: 6px;
+    background: none;
+    margin-left: 10px;
+    border: none;
+    line-height:40px;
+    margin-top: 4px;    
+
+}
+
+.now {
+    height: 40px;
+    width: 100px;
+    border-radius: 6px;
+    background: none;
+    border: none;
+    line-height:40px;
+    margin-top: 4px;    
+
+
+}
+
+.period2 {
+    height: 40px;
+    width: 100px;
+    border-radius: 6px;
+    background: gray;
+    border: none;
+    line-height:40px;
+    margin-top: 4px;    
+
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+    background: #ecf0f3;
+    position: absolute;
+    top: 150px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.one img {
+    max-width: 100%;
+}
+
+.first0 {
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.second0 {
+    position: absolute;
+    right: 80px;
+    top: 70px;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
