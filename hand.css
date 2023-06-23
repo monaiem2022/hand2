@@ -105,6 +105,7 @@ body {
 }
 
 .period2 {
+    color: gray;
     height: 40px;
     width: 100px;
     border-radius: 6px;
@@ -149,4 +150,27 @@ body {
     color: red;
     font-weight: bold;
     font-size: 20px;
+}
+
+
+
+
+
+.item1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+
+
+input {
+    width: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: aqua;
+    outline: none;
+    border-radius: 6px;
+
 }
