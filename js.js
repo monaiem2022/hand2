@@ -14,4 +14,12 @@ button.onclick = function () {
 
 
 
+var client1 = document.getElementById('client1');
+var all2 = document.getElementById('all2');
+
+
+client1.onclick = function () {
+    all2.style.display ='none'
+}
+
 
