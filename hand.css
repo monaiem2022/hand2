@@ -154,7 +154,10 @@ body {
 
 
 
-
+select {
+    outline: none;
+    border: none;
+}
 
 .item1 {
     display: flex;
@@ -175,3 +178,52 @@ input {
     text-align: center;
 
 }
+
+.value1 {
+    color: red;
+}
+
+
+.top2 {
+    
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+}
+
+
+.right {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+}
+
+.dollar {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+}
+
+
+
+.clients {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    direction: rtl;
+}
+
