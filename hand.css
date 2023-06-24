@@ -185,6 +185,7 @@ input {
 
 .all2 {
     height: 100vh;
+    display: none;
 }
 
 
@@ -237,3 +238,24 @@ input {
     margin-bottom: 5px;
 }
 
+
+.items {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   padding: 10px;
+}
+
+.price {
+    width: 50%;
+    color: red;
+}
+
+.type {
+    width: 40%;
+}
+
+.zero1 {
+    width: 10%;
+    color: red;
+}
