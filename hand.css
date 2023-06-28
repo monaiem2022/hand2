@@ -295,6 +295,7 @@ select {
     height: 40px;
     border: none;
     outline: none;
+    background-color: white;
 }
 
 .select1,.select2,.input1,.input2 {
