@@ -123,49 +123,24 @@ body {
     top: 150px;
 }
 
-.one {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+.one, .two {
+    width: 40%;
+    margin-left: 10px;
 }
 
-.one img {
-    max-width: 100%;
+.three {
+    width: 10%;
 }
-
-.first0 {
-    position: absolute;
-    top: 70px;
-    left: 80px;
-    color: red;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.second0 {
-    position: absolute;
-    right: 80px;
-    top: 70px;
-    color: red;
-    font-weight: bold;
-    font-size: 20px;
-}
-
 
 
 select {
-    outline: none;
-    border: none;
     width: 100%;
-   
+    height: 30px;
+    text-align: center;
 }
 
-.item1 {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-    
-}
+
+
 
 
 input {
@@ -234,27 +209,6 @@ input {
 
 
 
-.item1 {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-   padding: 10px;
-}
-
-.price {
-    
-    color: red;
-}
-
-.type {
-    width: 40%;
-}
-
-.zero1 {
-    width: 10%;
-    color: red;
-}
-
 
 
 .all2 {
@@ -264,8 +218,7 @@ input {
 
 
 .clients {
-    margin-top: 50px;
- 
+    margin-top: 50px; 
     background-color: green;
 }
 
@@ -288,6 +241,6 @@ input {
     display: none;
 }
 
-#bescuit1 div {
-    margin-bottom: 10px;
+.item1 {
+    display: flex;
 }
