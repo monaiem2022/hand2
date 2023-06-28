@@ -239,7 +239,7 @@ body {
   
     display: none;
     padding: 10px;
-    background-color: blue;
+    background-color: red;
 }
 
 .item1 {
@@ -279,7 +279,11 @@ body {
 }
 
 
-#input1 {
+#inputDiv {
+   height: 40px;
+}
+
+#inputDiv #input1 {
     width: 40%;
     height: 40px;
     border-top: none;
