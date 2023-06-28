@@ -274,7 +274,7 @@ body {
 }
 
 
-input {
+#input1 {
     width: 40%;
     height: 40px;
     border-top: none;
@@ -284,20 +284,17 @@ input {
     outline: none;
     border-radius: 6px;
     text-align: center;
-
-
 }
 
 
-
-select {
-    width: 80%;
+#box1 {
+    border: none;
+    outline: none;
     height: 40px;
-   
-   
+    text-align: center;
     background-color: white;
 }
 
-.select1,.select2,.input1,.input2 {
-    display: none;
-}
+
+
+

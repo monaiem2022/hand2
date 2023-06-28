@@ -33,31 +33,29 @@ item1.onclick = function () {
 
 input1.onkeyup = function () {
     zero1.innerHTML = input1.value;
-    if(box1.value == 'كرتونة') {
-        price1.innerHTML = price1.innerHTML*input1.value;
-        price1.innerHTML = 300;
-    }   else {
-        price1.innerHTML = price1.innerHTML*input1.value;
-        price1.innerHTML = 50
-    }
-
-    
-
 }
 
 
 box1.onclick = function () {
-     if(box1.value == 'كرتونة')  {
-        cartoonTitle1.innerHTML = 'كرتونة';
-        price1.innerHTML = 300;
-        
-     }  else {
-        cartoonTitle1.innerHTML = 'علبة';
+    if(box1.value == 'كرتونة'){
+        box1.value = 'علبة';
         price1.innerHTML = 50;
-     }
+        price1.innerHTML = price1.innerHTML*input1.value
+    } 
+      
+    else {
+        box1.value = 'كرتونة';
+        price1.innerHTML = 300;
+        price1.innerHTML = price1.innerHTML*input1.value
+    }
 
-   
+
+
+
+  
 }
+
+
 
 
 
