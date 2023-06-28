@@ -239,7 +239,14 @@ body {
   
     display: none;
     padding: 10px;
-    background-color: green;
+}
+
+.fixed{
+    height: 200px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .item1 {
@@ -249,10 +256,15 @@ body {
    
 }
 
-.zero1 {
+.zero1  {
     color: red;
     direction: rtl;
 }
+
+#price1 , #price2 {
+    color: red;
+}
+
 
 .row1 {
     width: 30%;
@@ -267,12 +279,6 @@ body {
 .row3 {
     width: 10%;
 }
-
-/* .row1 div,.row2 div {
-    margin-top: 10px;
-
-} */
-
 
 .row3 {
     width: 10%;
@@ -309,3 +315,76 @@ body {
 
 
 
+
+
+
+.item2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+   
+}
+
+.zero2 {
+    color: red;
+    direction: rtl;
+}
+
+
+
+
+#inputDiv2 {
+   height: 40px;
+   display: none;
+}
+
+#inputDiv2 #input2 {
+    width: 40%;
+    height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: aqua;
+    outline: none;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+#box2 {
+    border: none;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    display: none;
+}
+
+.maintotal hr {
+    background-color: gray;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.total {
+    background-color: red;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+}
+
+#one , #two {
+    display: none;
+}
+
+#result {
+    background: none;
+    outline: none;
+    border: none;
+     margin-left: 20px;
+}
