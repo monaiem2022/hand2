@@ -239,7 +239,7 @@ body {
   
     display: none;
     padding: 10px;
-    background-color: yellow;
+    background-color: blue;
 }
 
 .item1 {
@@ -255,13 +255,17 @@ body {
 }
 
 .row1 {
-    width: 40%;
+    width: 30%;
 
 }
 
 .row2 {
     width: 50%;
    text-align: right;
+}
+
+.row3 {
+    width: 10%;
 }
 
 .row1 div,.row2 div {
