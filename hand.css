@@ -104,7 +104,7 @@ body {
 }
 
 .period2 {
-    color: gray;
+    color: white;
     height: 40px;
     width: 100px;
     border-radius: 6px;
@@ -157,17 +157,6 @@ body {
 
 
 
-input {
-    width: 50px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-color: aqua;
-    outline: none;
-    border-radius: 6px;
-    text-align: center;
-
-}
 
 .value1 {
     color: red;
@@ -247,11 +236,67 @@ input {
 
 .all3 {
     height: 100%;
-    background-color: red;
+  
     display: none;
+    padding: 10px;
 }
 
 .item1 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+   
+}
+
+.zero1 {
+    color: red;
+    direction: rtl;
+}
+
+.row1 {
+    width: 40%;
+
+}
+
+.row2 {
+    width: 30%;
+   text-align: right;
+}
+
+.row1 div,.row2 div {
+    margin-top: 10px;
+
+}
+
+
+.row3 {
+    width: 10%;
+}
+
+
+input {
+    width: 40%;
+    height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: aqua;
+    outline: none;
+    border-radius: 6px;
+    text-align: center;
+
+
+}
+
+
+
+select {
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.select1,.select2,.input1,.input2 {
+    display: none;
 }

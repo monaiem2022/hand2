@@ -1,11 +1,63 @@
 let button = document.getElementById('button');
 var all1 = document.getElementById('all1');
-
-var client1 = document.getElementById('client1');
 var all2 = document.getElementById('all2');
-
 var all3 = document.getElementById('all3');
+var client1 = document.getElementById('client1');
+var clients = document.getElementById('clients');
 
+
+var item1 = document.getElementById('item1');
+var input1 = document.getElementById('input1');
+var inputDiv = document.getElementById('inputDiv');
+var zero1 = document.getElementById('zero1');
+var box1 = document.getElementById('box1');
+var cartoon1 = document.getElementById('cartoon1');
+var cartoonTitle1 = document.getElementById('cartoonTitle1');
+var price1 = document.getElementById('price1');
+
+var select1 = document.getElementById('select1');
+
+
+
+
+
+
+
+item1.onclick = function () {
+    inputDiv.style.display = 'block';
+    select1.style.display = 'block';
+   
+}
+
+
+
+input1.onkeyup = function () {
+    zero1.innerHTML = input1.value;
+    if(box1.value == 'كرتونة') {
+        price1.innerHTML = price1.innerHTML*input1.value;
+        price1.innerHTML = 300;
+    }   else {
+        price1.innerHTML = price1.innerHTML*input1.value;
+        price1.innerHTML = 50
+    }
+
+    
+
+}
+
+
+box1.onclick = function () {
+     if(box1.value == 'كرتونة')  {
+        cartoonTitle1.innerHTML = 'كرتونة';
+        price1.innerHTML = 300;
+        
+     }  else {
+        cartoonTitle1.innerHTML = 'علبة';
+        price1.innerHTML = 50;
+     }
+
+   
+}
 
 
 
@@ -16,16 +68,20 @@ var all3 = document.getElementById('all3');
 
 button.onclick = function () {
     all1.style.display = 'none';
-    all2.style.display = 'block'
+    all2.style.display = 'block';
 }
-
-
-
-
 
 client1.onclick = function () {
-    all2.style.display ='none';
-    all3.style.display = 'block'
+    all2.style.display = 'none';
+    all3.style.display = 'block';
+    clients.style.display = 'none'
 }
+
+
+
+
+
+
+
 
 
