@@ -33,6 +33,11 @@ item1.onclick = function () {
 
 input1.onkeyup = function () {
     zero1.innerHTML = input1.value;
+    if(input1.value == ' ') {
+        zero1.innerHTML = 0;
+    }  else {
+        zero1.innerHTML = input1.value
+    }
 }
 
 
