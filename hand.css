@@ -184,22 +184,31 @@ input {
 
 
 .all2 {
-    height: 100vh;
     display: none;
 }
 
 
-.top2 {
-    
+.top {
     height: 50px;
     width: 100%;
-    background-color: gray;
+    background-color: white;
+    position: absolute;
     top: 0;
     left: 0;
-    display: flex;
-    justify-content: space-between;
-    color: white;
 }
+
+.top i {
+    color: gray;
+    padding-left: 50px;
+    font-size: 27px;
+    margin-top: 10px;
+    opacity: .7;
+}
+
+.top i:first-child {
+    padding-left: 10px;
+}
+
 
 .left {
     width: 50%;
@@ -216,34 +225,8 @@ input {
     line-height: 50px;
 }
 
-.dollar {
-    height: 40px;
-    width: 40px;
-    margin-top: 5px;
-}
 
 
-
-.clients {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    direction: rtl;
-    background-color: white;
-    font-weight: thin;
-    margin-top: 5px;
-}
-
-.clients div {
-    margin-bottom: 5px;
-}
-
-
-.all3 {
-    display: none;
-    height: 100vh;
-    
-}
 
 .item1 {
     display: flex;
@@ -267,30 +250,9 @@ input {
 }
 
 
-.flex {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 10px;
-}
 
-.select1 {
-    width: 60%;
-}
-
-.select1 select {
-    width: 100%;
-    height :30px;
-    text-align: center;
-
-}
-
-.fixed {
-    position: fixed;
-    height: 100px;
-    width: 100%;
+.all2 {
+    height: 100%;
     background-color: red;
-    bottom: 10px;
-    /* left: 0;
-    right: 0; */
+    display: none;
 }
