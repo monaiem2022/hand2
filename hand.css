@@ -123,14 +123,8 @@ body {
     top: 150px;
 }
 
-.one, .two {
-    width: 40%;
-    margin-left: 10px;
-}
 
-.three {
-    width: 10%;
-}
+
 
 .zero1, .cartoon {
     color: red;
@@ -236,15 +230,17 @@ input {
 
 
 .all3 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100vh;
+    
+ 
     height: 100vh;
-    background-color: blue;
+    background-color: red;
     display: none;
+  
+  
 }
 
 .item1 {
     display: flex;
+    justify-content: space-between;
 }
+
