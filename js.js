@@ -25,7 +25,7 @@ var select1 = document.getElementById('select1');
 
 item1.onclick = function () {
     inputDiv.style.display = 'block';
-    select1.style.display = 'block';
+    box1.style.display = 'block';
    
 }
 
