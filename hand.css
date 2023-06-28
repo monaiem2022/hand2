@@ -132,6 +132,10 @@ body {
     width: 10%;
 }
 
+.zero1, .cartoon {
+    color: red;
+}
+
 
 select {
     width: 100%;
