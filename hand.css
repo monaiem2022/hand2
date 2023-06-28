@@ -239,7 +239,7 @@ body {
   
     display: none;
     padding: 10px;
-    background-color: blue;
+    background-color: yellow;
 }
 
 .item1 {
@@ -260,7 +260,7 @@ body {
 }
 
 .row2 {
-    width: 30%;
+    width: 50%;
    text-align: right;
 }
 
