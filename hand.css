@@ -123,19 +123,35 @@ body {
     top: 150px;
 }
 
+.one {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
 
+.one img {
+    max-width: 100%;
+}
 
-
-.zero1, .cartoon {
+.first0 {
+    position: absolute;
+    top: 70px;
+    left: 80px;
     color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.second0 {
+    position: absolute;
+    right: 80px;
+    top: 70px;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 
-select {
-    width: 100%;
-    height: 30px;
-    text-align: center;
-}
 
 
 
@@ -230,17 +246,12 @@ input {
 
 
 .all3 {
-    
- 
-    height: 100vh;
+    height: 100%;
     background-color: red;
     display: none;
-  
-  
 }
 
 .item1 {
     display: flex;
     justify-content: space-between;
 }
-
