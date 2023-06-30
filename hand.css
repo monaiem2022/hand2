@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 100vh;
+ 
     width: 100vw;
     font-family: sans-serif , Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -11,7 +11,6 @@ body {
 
 
 .login-div {
-    height: 100vh;
     width: 100%;
     background: #ecf0f3;
     position: relative;
@@ -236,32 +235,38 @@ body {
 
 .all3 {
     height: 100%;
-  
     display: none;
     padding: 10px;
 }
 
 .fixed{
-    height: 200px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+   
+ 
     width: 100%;
+    background-color: yellow;
 }
 
-.item1 {
+
+
+
+
+
+
+.item1 ,.item2 ,.item3 ,.item4 ,.item5 ,.item6 ,.item7 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    height: 100px;
+    margin-top: 20px;
    
 }
 
-.zero1  {
+.zero1 ,.zero2 ,.zero3 ,.zero4 ,.zero5 ,.zero6 ,.zero7 {
     color: red;
     direction: rtl;
 }
 
-#price1 , #price2 {
+#price1 , #price2 ,#price3 ,#price4 ,#price5 ,#price6 #price7{
     color: red;
 }
 
@@ -280,17 +285,15 @@ body {
     width: 10%;
 }
 
-.row3 {
-    width: 10%;
-}
 
 
-#inputDiv {
+#inputDiv, #inputDiv2 ,#inputDiv3 ,#inputDiv4 ,#inputDiv5 ,#inputDiv6 ,#inputDiv7{
    height: 40px;
    display: none;
+  
 }
 
-#inputDiv #input1 {
+#inputDiv #input1 ,#inputDiv2 #input2 ,#inputDiv3 #input3 ,#inputDiv4 #input4 ,#inputDiv5 #input5 ,#inputDiv6 #input6 ,#inputDiv7 #input7 {
     width: 40%;
     height: 40px;
     border-top: none;
@@ -300,24 +303,28 @@ body {
     outline: none;
     border-radius: 6px;
     text-align: center;
+    margin-top: 10px;
 }
 
 
-#box1 {
+#box1, #box2 ,#box3 ,#box4 ,#box5 ,#box6 ,#box7{
     border: none;
     outline: none;
     height: 40px;
     text-align: center;
     background-color: white;
     display: none;
+    margin-top: 10px;
+}
+
+#one , #two ,#three ,#four ,#five ,#six ,#seven{
+    display: none;
 }
 
 
 
 
-
-
-
+/* 
 .item2 {
     display: flex;
     justify-content: space-between;
@@ -358,7 +365,7 @@ body {
     text-align: center;
     background-color: white;
     display: none;
-}
+} */
 
 .maintotal hr {
     background-color: gray;
@@ -378,9 +385,7 @@ body {
     margin-left: 10px;
 }
 
-#one , #two {
-    display: none;
-}
+
 
 #result {
     background: none;
