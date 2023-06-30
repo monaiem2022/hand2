@@ -237,13 +237,19 @@ body {
     height: 100%;
     display: none;
     padding: 10px;
+    position: relative;
 }
 
 .fixed{
+  
    
- 
+    position: absolute;
     width: 100%;
-    background-color: yellow;
+    top: 100%;
+    
+    left: 0;
+    border-top: 3px solid gray;
+
 }
 
 
@@ -252,21 +258,22 @@ body {
 
 
 
-.item1 ,.item2 ,.item3 ,.item4 ,.item5 ,.item6 ,.item7 {
+.item1 ,.item2  {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
-    height: 100px;
-    margin-top: 20px;
+   
+ 
    
 }
 
-.zero1 ,.zero2 ,.zero3 ,.zero4 ,.zero5 ,.zero6 ,.zero7 {
+.zero1{
     color: red;
     direction: rtl;
 }
 
-#price1 , #price2 ,#price3 ,#price4 ,#price5 ,#price6 #price7{
+#price1 , #price2 ,#price3 ,#price4 ,#price5 ,#price6 , #price7 , #price8,
+#price9 ,#price10
+{
     color: red;
 }
 
@@ -287,13 +294,19 @@ body {
 
 
 
-#inputDiv, #inputDiv2 ,#inputDiv3 ,#inputDiv4 ,#inputDiv5 ,#inputDiv6 ,#inputDiv7{
+#inputDiv, #inputDiv2 ,#inputDiv3 ,#inputDiv4 ,#inputDiv5 ,#inputDiv6 ,#inputDiv7,
+#inputDiv8 ,#inputDiv9 ,#inputDiv10 
+{
    height: 40px;
    display: none;
   
+  
 }
 
-#inputDiv #input1 ,#inputDiv2 #input2 ,#inputDiv3 #input3 ,#inputDiv4 #input4 ,#inputDiv5 #input5 ,#inputDiv6 #input6 ,#inputDiv7 #input7 {
+#inputDiv #input1 ,#inputDiv2 #input2 ,#inputDiv3 #input3 ,#inputDiv4 #input4 ,#inputDiv5 #input5 ,#inputDiv6 #input6 ,#inputDiv7 #input7,
+#inputDiv8 #input8 ,#inputDiv9 #input9 ,#inputDiv10 #input10
+
+{
     width: 40%;
     height: 40px;
     border-top: none;
@@ -307,7 +320,9 @@ body {
 }
 
 
-#box1, #box2 ,#box3 ,#box4 ,#box5 ,#box6 ,#box7{
+#box1, #box2 ,#box3 ,#box4 ,#box5 ,#box6 ,#box7,
+#box8 ,#box9 ,#box10 
+{
     border: none;
     outline: none;
     height: 40px;
@@ -317,12 +332,58 @@ body {
     margin-top: 10px;
 }
 
-#one , #two ,#three ,#four ,#five ,#six ,#seven{
+#one , #two ,#three ,#four ,#five ,#six ,#seven ,#eight ,#nine ,#ten {
     display: none;
 }
 
 
+#backButton {
+    display: none;
+}
 
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.discount1 input {
+    border: none;
+    outline: none;
+    width: 50px;
+    background: none;
+    display: none;
+ 
+}
+
+
+
+#totaldis {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+#totaldis div {
+    margin-top: 5px;
+}
+
+
+#nametitle ,#discounttitle {
+    display: none;
+    font-size: 14px;
+}
+
+
+#name1 ,#name2 ,#name3,#name4,#name5,#name6,#name7,#name8,#name9,#name10 ,
+ #discount1 ,#discount2,#discount3,#discount4,#discount5,#discount6,#discount7,#discount8,#discount9,#discount10 {
+    display: none;
+    font-size: 14px;
+}
 
 /* 
 .item2 {
@@ -382,8 +443,10 @@ body {
     border-radius: 10px;
     outline: none;
     border: none;
-    margin-left: 10px;
+    margin-top: 20px;;
+
 }
+
 
 
 
