@@ -226,12 +226,39 @@ body {
 }
 
 .clients div {
-    height: 100px;
+   
     background-color: #f3f7f9;
-    margin-bottom: 10px;
     padding: 10px;
+}
+
+#client1 i{
+   
+    font-size: 20px;
+    padding: 20px;
+    color: green;
 
 }
+
+
+
+
+
+.clientflex1 ,.clientflex2 {
+    display: flex;
+    justify-content: space-between;
+    font-weight : 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -493,6 +520,17 @@ body {
 
 }
 
+
+#appear {
+    font-size: 10px;
+    width: 100%;
+    border: dashed 1px black;
+    opacity: .2;
+    display: none;
+    margin-bottom: 20px;
+
+}
+
 #absolute {
     border: none;
     outline: none;
@@ -520,7 +558,6 @@ body {
 
 .final2,.final3,.final4,.final5,.final6,.final7{
     text-align: center;
-  
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
    
@@ -547,6 +584,27 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+#taxtotal {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+}
+
+
+#cash {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+}
+
+
 
 
 

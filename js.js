@@ -24,6 +24,7 @@ var result = document.getElementById('result');
 
 
 var item2 = document.getElementById('item2');
+var client2 = document.getElementById('client2');
 var input2 = document.getElementById('input2');
 var inputDiv2 = document.getElementById('inputDiv2');
 var zero2 = document.getElementById('zero2');
@@ -65,6 +66,7 @@ var four = parseInt(document.getElementById('four').value);
 item1.onclick = function () {
     inputDiv.style.display = 'block';
     box1.style.display = 'block';
+
    
 }
 
@@ -656,9 +658,11 @@ var finaltotal4 = document.getElementById('finaltotal4');
 var finaltotal5 = document.getElementById('finaltotal5');
 var finaltotal6 = document.getElementById('finaltotal6');
 var finaltotal7 = document.getElementById('finaltotal7');
-var fianltotal8 = document.getElementById('finaltotal8');
+var finaltotal8 = document.getElementById('finaltotal8');
 var finaltotal9 = document.getElementById('finaltotal9');
 var finaltotal0 = document.getElementById('finaltotal10');
+
+
 
 
 
@@ -823,6 +827,14 @@ total.onclick = function () {
     // box7.style.display = 'none';
 
 
+    var cash1 = document.getElementById('cash1');
+    var cash2 = document.getElementById('cash2');
+
+
+
+
+
+
     if(input1.value != ' ') {
         input1.style.display = 'none';
         box1.style.display = 'none';
@@ -846,8 +858,12 @@ total.onclick = function () {
         quantity1.innerHTML = zero1.innerHTML;
         priceitem1.innerHTML = price1.innerHTML;
         finaltotal1.innerHTML = quantity1.innerHTML*priceitem1.innerHTML-finaldisc1.innerHTML;
-       
-    }  
+        cash2.innerHTML = result.value;
+    }
+    
+    
+
+
 
 
 
@@ -874,7 +890,7 @@ total.onclick = function () {
         tax2.style.display = 'block';
         quantity2.innerHTML = zero2.innerHTML;
         priceitem2.innerHTML = price2.innerHTML;
-        finaltotal2.innerHTML = quantity2.innerHTML*priceitem2.innerHTML-finaldisc2.innerHTML;
+        finaltotal2.innerHTML = quantity2.innerHTML*priceitem2.innerHTML-finaldisc2.innerHTML;      
 
     }  
 
@@ -903,6 +919,7 @@ total.onclick = function () {
         quantity3.innerHTML = zero3.innerHTML;
         priceitem3.innerHTML = price3.innerHTML;
         finaltotal3.innerHTML = quantity3.innerHTML*priceitem3.innerHTML-finaldisc3.innerHTML;
+
     }  
 
     if(input4.value != ' ') {
@@ -1052,6 +1069,7 @@ total.onclick = function () {
         priceitem9.innerHTML = price9.innerHTML;
         finaltotal9.innerHTML = quantity9.innerHTML*priceitem9.innerHTML-finaldisc9.innerHTML;
     }  
+
     if(input10.value != ' ') {
         input10.style.display = 'none';
         box10.style.display = 'none';
@@ -1171,6 +1189,7 @@ var all4 = document.getElementById('all4');
 finish.onclick = function () {
     all3.style.display = 'none';
     all4.style.display = 'block';
+    
 
 }
 
@@ -1190,9 +1209,34 @@ absolute.onclick = function () {
 
 
 
+var clientname1 =document.getElementById('clientname1');
+var clientname =document.getElementById('clientname');
+var codeclient1 = document.getElementById('codeclient1');
+var codofclient = document.getElementById('codofclient');
+var clientaddress = document.getElementById('clientaddress');
+var clientaddress1 = document.getElementById('clientaddress1');
 
 
 
+
+
+
+client1.onclick = function () {
+    all2.style.display = 'none';
+    all3.style.display = 'block';
+    clients.style.display = 'none';
+    clientname.innerHTML = clientname1.innerHTML;
+    codofclient.innerHTML = codeclient1.innerHTML;
+    clientaddress.innerHTML = clientaddress1.innerHTML;
+    
+
+}
+
+client2.onclick = function () {
+    all2.style.display = 'none';
+    all3.style.display = 'block';
+    clients.style.display = 'none'
+}
 
 
 
@@ -1200,14 +1244,6 @@ button.onclick = function () {
     all1.style.display = 'none';
     all2.style.display = 'block';
 }
-
-client1.onclick = function () {
-    all2.style.display = 'none';
-    all3.style.display = 'block';
-    clients.style.display = 'none'
-}
-
-
 
 
 
