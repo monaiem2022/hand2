@@ -577,8 +577,12 @@ var discount10 = document.getElementById('discount10');
 
 
 
-
 total.onclick = function () {
+    total.innerHTML = 'اجمالي القيمة بعد الخصم';
+    total.style.background = 'none';
+    total.style.color = 'black';
+    total.style.borderBottom = '1px solid red';
+    finish.style.display = 'block';
     result.style.display = 'block';
     one = input1.value*price1.innerHTML-30*zero1.innerHTML;
     //  totaldis.innerHTML = 'اجمالي الخصم' + ' '  + 30*zero1.innerHTML;
@@ -922,6 +926,35 @@ total.onclick = function () {
 //     total.innerHTML = 'طباعة';
   
 // }
+
+
+
+
+
+
+
+
+
+
+var finish = document.getElementById('finish');
+var all4 = document.getElementById('all4');
+
+
+
+finish.onclick = function () {
+    all3.style.display = 'none';
+    all4.style.display = 'block';
+
+}
+
+
+
+
+
+
+
+
+
 
 
 

@@ -221,13 +221,14 @@ body {
 
 .clients {
     margin-top: 50px; 
-    background-color: green;
+    
 }
 
 .clients div {
     height: 100px;
-    background-color: gray;
-    margin-top: 10px;
+    background-color: #f3f7f9;
+    margin-bottom: 10px;
+    padding: 10px;
 
 }
 
@@ -316,7 +317,7 @@ body {
     outline: none;
     border-radius: 6px;
     text-align: center;
-    margin-top: 10px;
+
 }
 
 
@@ -385,6 +386,21 @@ body {
     font-size: 14px;
 }
 
+#finish {
+    position: absolute;
+    bottom: 0;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    left: 10px;
+    display: none;
+}
+
 /* 
 .item2 {
     display: flex;
@@ -444,8 +460,31 @@ body {
     outline: none;
     border: none;
     margin-top: 20px;;
+}
+
+
+.all4 {
+    display: none;
+    width: 100%;
+}
+
+.a ,.b ,.c ,.d ,.e {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.span {
+    font-size: 10px;
+    width: 100%;
+    border: dashed 1px black;
+    opacity: .2;
 
 }
+
 
 
 
