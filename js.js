@@ -80,26 +80,18 @@ input1.onkeyup = function () {
 }
 
 
-
 box1.onclick = function () {
     if(box1.value == 'علبة') {
         box1.value = 'كرتونة';
-        price1.innerHTML = 300;
-        num1 .value= price1.innerHTML;
+        price1.innerHTML = 600;
         cartoonTitle1.innerHTML = box1.value;
-
         
-
     }  else {
         box1.value = 'علبة';
         price1.innerHTML = 50;
-        num1.value = price1.innerHTML;
         cartoonTitle1.innerHTML = box1.value
-       
-       
     }
 }
-
 
 
 
@@ -248,6 +240,8 @@ var cartoonTitle5 = document.getElementById('cartoonTitle5');
 var price5 = document.getElementById('price5');
 var select5 = document.getElementById('select5');
 var five = parseInt(document.getElementById('five').value);
+var cartoonTitle5 = document.getElementById('cartoonTitle5');
+
 
 
 
@@ -300,6 +294,8 @@ var cartoonTitle6 = document.getElementById('cartoonTitle6');
 var price6 = document.getElementById('price6');
 var select6 = document.getElementById('select6');
 var six = parseInt(document.getElementById('six').value);
+var cartoonTitle6 = document.getElementById('cartoonTitle6');
+
 
 
 
@@ -351,6 +347,8 @@ var cartoonTitle7 = document.getElementById('cartoonTitle7');
 var price7 = document.getElementById('price7');
 var select7 = document.getElementById('select7');
 var seven = parseInt(document.getElementById('seven').value);
+var cartoonTitle7 = document.getElementById('cartoonTitle7');
+
 
 
 
@@ -404,6 +402,8 @@ var cartoonTitle8 = document.getElementById('cartoonTitle8');
 var price8 = document.getElementById('price8');
 var select8 = document.getElementById('select8');
 var eight = parseInt(document.getElementById('eight').value);
+var cartoonTitle8 = document.getElementById('cartoonTitle8');
+
 
 
 
@@ -455,6 +455,8 @@ var cartoonTitle9 = document.getElementById('cartoonTitle9');
 var price9 = document.getElementById('price9');
 var select9 = document.getElementById('select9');
 var nine = parseInt(document.getElementById('nine').value);
+var cartoonTitle9 = document.getElementById('cartoonTitle9');
+
 
 
 
@@ -573,6 +575,54 @@ var discount9 = document.getElementById('discount9');
 var discount10 = document.getElementById('discount10');
 
 
+var print1 = document.getElementById('print1');
+var print2 = document.getElementById('print2');
+var print3 = document.getElementById('print3');
+var print4 = document.getElementById('print4');
+var print5 = document.getElementById('print5');
+var print6 = document.getElementById('print6');
+var print7 = document.getElementById('print7');
+var print8 = document.getElementById('print8');
+var print9 = document.getElementById('print9');
+var print10 = document.getElementById('print10');
+
+
+var final1 = document.getElementById('final1');
+var final2 = document.getElementById('final2');
+var final3 = document.getElementById('final3');
+var final4 = document.getElementById('final4');
+var final5 = document.getElementById('final5');
+var final6 = document.getElementById('final6');
+var final7 = document.getElementById('final7');
+
+
+
+
+var bottle1 = document.getElementById('bottle1');
+var bottle2 = document.getElementById('bottle2');
+var bottle3 = document.getElementById('bottle3');
+var bottle4 = document.getElementById('bottle4');
+var bottle5 = document.getElementById('bottle5');
+var bottle6 = document.getElementById('bottle6');
+var bottle7 = document.getElementById('bottle7');
+var bottle8 = document.getElementById('bottle8');
+var bottle9 = document.getElementById('bottle9');
+var bottle10 = document.getElementById('bottle10');
+
+
+
+var finaldisc1 = document.getElementById('finaldisc1');
+var finaldisc2 = document.getElementById('finaldisc2');
+var finaldisc3 = document.getElementById('finaldisc3');
+var finaldisc4 = document.getElementById('finaldisc4');
+var finaldisc5 = document.getElementById('finaldisc5');
+var finaldisc6 = document.getElementById('finaldisc6');
+var finaldisc7 = document.getElementById('finaldisc7');
+var finaldisc8 = document.getElementById('finaldisc8');
+var finaldisc9 = document.getElementById('finaldisc9');
+var finaldisc10 = document.getElementById('finaldisc10');
+
+
 
 
 
@@ -584,7 +634,13 @@ total.onclick = function () {
     total.style.borderBottom = '1px solid red';
     finish.style.display = 'block';
     result.style.display = 'block';
-    one = input1.value*price1.innerHTML-30*zero1.innerHTML;
+    if(cartoonTitle1.innerHTML == 'كرتونة') {
+        one = input1.value*price1.innerHTML-30*zero1.innerHTML; 
+        discount1.innerHTML = 30*zero1.innerHTML;
+    } else {
+        one = input1.value*price1.innerHTML-1*zero1.innerHTML; 
+        discount1.innerHTML = 1*zero1.innerHTML;
+    }
     //  totaldis.innerHTML = 'اجمالي الخصم' + ' '  + 30*zero1.innerHTML;
      
     // two = input2.value*price2.innerHTML-10*zero2.innerHTML; 
@@ -737,7 +793,18 @@ total.onclick = function () {
         discounttitle.style.display = 'block';
         name1.style.display = 'block';
         discount1.style.display = 'block';
-        
+        final1.style.display = 'block';
+        final2.style.display = 'block';
+        final3.style.display = 'block';
+        final4.style.display = 'block';
+        final5.style.display = 'block';
+        final6.style.display = 'block';
+        final7.style.display = 'block';
+        bottle1.innerHTML = cartoonTitle1.innerHTML;
+        print1.style.display = 'block';
+        print1.innerHTML = name1.innerHTML;
+        finaldisc1.innerHTML = discount1.innerHTML
+     
     }  
 
 
@@ -751,9 +818,16 @@ total.onclick = function () {
         discounttitle.style.display = 'block';
         name2.style.display = 'block';
         discount2.style.display = 'block';
-       
-        
-        
+        final1.style.display = 'block';
+        final2.style.display = 'block';
+        final3.style.display = 'block';
+        final4.style.display = 'block';
+        final5.style.display = 'block';
+        final6.style.display = 'block';
+        final7.style.display = 'block';
+        bottle2.innerHTML = cartoonTitle2.innerHTML;
+        print2.style.display = 'block';
+        print2.innerHTML = name2.innerHTML;
     }  
 
 
@@ -766,8 +840,16 @@ total.onclick = function () {
         discounttitle.style.display = 'block';
         name3.style.display = 'block';
         discount3.style.display = 'block';
-       
-        
+        final1.style.display = 'block';
+        final2.style.display = 'block';
+        final3.style.display = 'block';
+        final4.style.display = 'block';
+        final5.style.display = 'block';
+        final6.style.display = 'block';
+        final7.style.display = 'block';
+        bottle3.innerHTML = cartoonTitle3.innerHTML;
+        print3.style.display = 'block';
+        print3.innerHTML = name3.innerHTML;
     }  
 
     if(input4.value != ' ') {
@@ -778,7 +860,16 @@ total.onclick = function () {
         discounttitle.style.display = 'block';
         name4.style.display = 'block';
         discount4.style.display = 'block';
-    
+        final1.style.display = 'block';
+        final2.style.display = 'block';
+        final3.style.display = 'block';
+        final4.style.display = 'block';
+        final5.style.display = 'block';
+        final6.style.display = 'block';
+        final7.style.display = 'block';
+        bottle4.innerHTML = cartoonTitle4.innerHTML;
+        print4.style.display = 'block';
+        print4.innerHTML = name4.innerHTML;
     }  
 
     if(input5.value != ' ') {
@@ -789,7 +880,16 @@ total.onclick = function () {
         discounttitle.style.display = 'block';
         name5.style.display = 'block';
         discount5.style.display = 'block';
-    
+        final1.style.display = 'block';
+        final2.style.display = 'block';
+        final3.style.display = 'block';
+        final4.style.display = 'block';
+        final5.style.display = 'block';
+        final6.style.display = 'block';
+        final7.style.display = 'block';
+        bottle5.innerHTML = cartoonTitle5.innerHTML;
+        print5.style.display = 'block';
+        print5.innerHTML = name5.innerHTML;
     }  
 
     if(input6.value != ' ') {
@@ -800,8 +900,16 @@ total.onclick = function () {
         discounttitle.style.display = 'block';
         name6.style.display = 'block';
         discount6.style.display = 'block';
-      
-
+        final1.style.display = 'block';
+        final2.style.display = 'block';
+        final3.style.display = 'block';
+        final4.style.display = 'block';
+        final5.style.display = 'block';
+        final6.style.display = 'block';
+        final7.style.display = 'block';
+        bottle6.innerHTML = cartoonTitle6.innerHTML;
+        print6.style.display = 'block';
+        print6.innerHTML = name6.innerHTML;
     }  
 
     if(input7.value != ' ') {
@@ -812,8 +920,16 @@ total.onclick = function () {
         discounttitle.style.display = 'block';
         name7.style.display = 'block';
         discount7.style.display = 'block';
-        
-        
+        final1.style.display = 'block';
+        final2.style.display = 'block';
+        final3.style.display = 'block';
+        final4.style.display = 'block';
+        final5.style.display = 'block';
+        final6.style.display = 'block';
+        final7.style.display = 'block';
+        bottle7.innerHTML = cartoonTitle7.innerHTML;
+        print7.style.display = 'block';
+        print7.innerHTML = name7.innerHTML;
     }  
     if(input8.value != ' ') {
         input8.style.display = 'none';
@@ -823,8 +939,16 @@ total.onclick = function () {
         discounttitle.style.display = 'block';
         name8.style.display = 'block';
         discount8.style.display = 'block';
-
-        
+        final1.style.display = 'block';
+        final2.style.display = 'block';
+        final3.style.display = 'block';
+        final4.style.display = 'block';
+        final5.style.display = 'block';
+        final6.style.display = 'block';
+        final7.style.display = 'block';
+        bottle8.innerHTML = cartoonTitle8.innerHTML;
+        print8.style.display = 'block';
+        print8.innerHTML = name8.innerHTML;
     }  
     if(input9.value != ' ') {
         input9.style.display = 'none';
@@ -834,8 +958,16 @@ total.onclick = function () {
         discounttitle.style.display = 'block';
         name9.style.display = 'block';
         discount9.style.display = 'block';
-    
-        
+        final1.style.display = 'block';
+        final2.style.display = 'block';
+        final3.style.display = 'block';
+        final4.style.display = 'block';
+        final5.style.display = 'block';
+        final6.style.display = 'block';
+        final7.style.display = 'block';
+        bottle9.innerHTML = cartoonTitle9.innerHTML;
+        print9.style.display = 'block';
+        print9.innerHTML = name.innerHTML;
     }  
     if(input10.value != ' ') {
         input10.style.display = 'none';
@@ -845,9 +977,16 @@ total.onclick = function () {
         discounttitle.style.display = 'block';
         name10.style.display = 'block';
         discount10.style.display = 'block';
-     
-    
-        
+        final1.style.display = 'block';
+        final2.style.display = 'block';
+        final3.style.display = 'block';
+        final4.style.display = 'block';
+        final5.style.display = 'block';
+        final6.style.display = 'block';
+        final7.style.display = 'block';
+        bottle10.innerHTML = cartoonTitle10.innerHTML;
+        print10.style.display = 'block';
+        print10.innerHTML = name10.innerHTML;
     }  
 
 
@@ -950,7 +1089,13 @@ finish.onclick = function () {
 
 
 
+var absolute = document.getElementById('absolute');
 
+absolute.onclick = function () {
+    absolute.style.display = 'none';
+    window.print();
+    
+}
 
 
 
