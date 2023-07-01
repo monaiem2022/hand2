@@ -890,7 +890,8 @@ total.onclick = function () {
         tax2.style.display = 'block';
         quantity2.innerHTML = zero2.innerHTML;
         priceitem2.innerHTML = price2.innerHTML;
-        finaltotal2.innerHTML = quantity2.innerHTML*priceitem2.innerHTML-finaldisc2.innerHTML;      
+        finaltotal2.innerHTML = quantity2.innerHTML*priceitem2.innerHTML-finaldisc2.innerHTML; 
+        cash2.innerHTML = result.value;     
 
     }  
 
@@ -919,6 +920,7 @@ total.onclick = function () {
         quantity3.innerHTML = zero3.innerHTML;
         priceitem3.innerHTML = price3.innerHTML;
         finaltotal3.innerHTML = quantity3.innerHTML*priceitem3.innerHTML-finaldisc3.innerHTML;
+        cash2.innerHTML = result.value;
 
     }  
 
@@ -945,6 +947,7 @@ total.onclick = function () {
         quantity4.innerHTML = zero4.innerHTML;
         priceitem4.innerHTML = price4.innerHTML;
         finaltotal4.innerHTML = quantity4.innerHTML*priceitem4.innerHTML-finaldisc4.innerHTML;
+        cash2.innerHTML = result.value;
     }  
 
     if(input5.value != ' ') {
@@ -970,6 +973,7 @@ total.onclick = function () {
         quantity5.innerHTML = zero5.innerHTML;
         priceitem5.innerHTML = price5.innerHTML;
         finaltotal5.innerHTML = quantity5.innerHTML*priceitem5.innerHTML-finaldisc5.innerHTML;
+        cash2.innerHTML = result.value;
     }  
 
     if(input6.value != ' ') {
@@ -995,6 +999,7 @@ total.onclick = function () {
         quantity6.innerHTML = zero6.innerHTML;
         priceitem6.innerHTML = price6.innerHTML;
         finaltotal6.innerHTML = quantity6.innerHTML*priceitem6.innerHTML-finaldisc6.innerHTML;
+        cash2.innerHTML = result.value;
     }  
 
     if(input7.value != ' ') {
@@ -1020,6 +1025,7 @@ total.onclick = function () {
         quantity7.innerHTML = zero7.innerHTML;
         priceitem7.innerHTML = price7.innerHTML;
         finaltotal7.innerHTML = quantity7.innerHTML*priceitem7.innerHTML-finaldisc7.innerHTML;
+        cash2.innerHTML = result.value;
     }  
     if(input8.value != ' ') {
         input8.style.display = 'none';
@@ -1044,6 +1050,7 @@ total.onclick = function () {
         quantity8.innerHTML = zero8.innerHTML;
         priceitem8.innerHTML = price8.innerHTML;
         finaltotal8.innerHTML = quantity8.innerHTML*priceitem8.innerHTML-finaldisc8.innerHTML;
+        cash2.innerHTML = result.value;
     }  
     if(input9.value != ' ') {
         input9.style.display = 'none';
@@ -1068,6 +1075,7 @@ total.onclick = function () {
         quantity9.innerHTML = zero9.innerHTML;
         priceitem9.innerHTML = price9.innerHTML;
         finaltotal9.innerHTML = quantity9.innerHTML*priceitem9.innerHTML-finaldisc9.innerHTML;
+        cash2.innerHTML = result.value;
     }  
 
     if(input10.value != ' ') {
@@ -1093,6 +1101,7 @@ total.onclick = function () {
         quantity10.innerHTML = zero10.innerHTML;
         priceitem10.innerHTML = price10.innerHTML; 
         finaltotal10.innerHTML = quantity10.innerHTML*priceitem10.innerHTML-finaldisc10.innerHTML;
+        cash2.innerHTML = result.value;
     }  
 
 
