@@ -552,6 +552,62 @@ box10.onclick = function () {
 
 
 
+
+
+var item11 = document.getElementById('item11');
+var input11 = document.getElementById('input11');
+var inputDiv11 = document.getElementById('inputDiv11');
+var zero11 = document.getElementById('zero11');
+var box11 = document.getElementById('box11');
+var cartoon11 = document.getElementById('cartoon11');
+var cartoonTitle11 = document.getElementById('cartoonTitle11');
+var price11 = document.getElementById('price11');
+var select11 = document.getElementById('select11');
+var eleven = parseInt(document.getElementById('eleven').value);
+
+
+
+
+
+item11.onclick = function () {
+    inputDiv11.style.display = 'block';
+    box11.style.display = 'block';
+   
+}
+
+
+input11.onkeyup = function () {
+    eleven = price11.innerHTML*input11.value;
+    zero11.innerHTML = input11.value;
+
+    if(input11.value == ' ' ) {
+        zero11.innerHTML = 0
+    }
+   
+}
+
+box11.onclick = function () {
+    if(box11.value == 'علبة') {
+        box11.value = 'كرتونة';
+        price11.innerHTML = 360;
+        cartoonTitle11.innerHTML = box11.value;
+        
+    }  else {
+        box11.value = 'علبة';
+        price11.innerHTML = 30;
+        cartoonTitle11.innerHTML = box11.value
+    }
+}
+
+
+
+
+
+
+
+
+
+
 var nametitle = document.getElementById('nametitle');
 var discounttitle = document.getElementById('discounttitle');
 var name1 = document.getElementById('name1');
@@ -564,6 +620,7 @@ var name7 = document.getElementById('name7');
 var name8 = document.getElementById('name8');
 var name9 = document.getElementById('name9');
 var name10 = document.getElementById('name10');
+var name11 = document.getElementById('name11');
 
 var discount1 = document.getElementById('discount1');
 var discount2 = document.getElementById('discount2');
@@ -575,6 +632,7 @@ var discount7 = document.getElementById('discount7');
 var discount8 = document.getElementById('discount8');
 var discount9 = document.getElementById('discount9');
 var discount10 = document.getElementById('discount10');
+var discount11 = document.getElementById('discount11');
 
 
 var print1 = document.getElementById('print1');
@@ -587,6 +645,7 @@ var print7 = document.getElementById('print7');
 var print8 = document.getElementById('print8');
 var print9 = document.getElementById('print9');
 var print10 = document.getElementById('print10');
+var print11 = document.getElementById('print11');
 
 
 var final1 = document.getElementById('final1');
@@ -610,6 +669,7 @@ var bottle7 = document.getElementById('bottle7');
 var bottle8 = document.getElementById('bottle8');
 var bottle9 = document.getElementById('bottle9');
 var bottle10 = document.getElementById('bottle10');
+var bottle11 = document.getElementById('bottle11');
 
 
 
@@ -623,6 +683,7 @@ var finaldisc7 = document.getElementById('finaldisc7');
 var finaldisc8 = document.getElementById('finaldisc8');
 var finaldisc9 = document.getElementById('finaldisc9');
 var finaldisc10 = document.getElementById('finaldisc10');
+var finaldisc11 = document.getElementById('finaldisc11');
 
 
 
@@ -636,6 +697,7 @@ var quantity7 = document.getElementById('quantity7');
 var quantity8 = document.getElementById('quantity8');
 var quantity9 = document.getElementById('quantity9');
 var quantity10 = document.getElementById('quantity10');
+var quantity11 = document.getElementById('quantity11');
 
 
 var priceitem1 = document.getElementById('priceitem1');
@@ -648,6 +710,7 @@ var priceitem7 = document.getElementById('priceitem7');
 var priceitem8 = document.getElementById('priceitem8');
 var priceitem9 = document.getElementById('priceitem9');
 var priceitem10 = document.getElementById('priceitem10');
+var priceitem11 = document.getElementById('priceitem11');
 
 
 
@@ -661,11 +724,39 @@ var finaltotal7 = document.getElementById('finaltotal7');
 var finaltotal8 = document.getElementById('finaltotal8');
 var finaltotal9 = document.getElementById('finaltotal9');
 var finaltotal0 = document.getElementById('finaltotal10');
+var finaltotal11 = document.getElementById('finaltotal11');
 
 
 
 
 
+var hrnametitle = document.getElementById('hrnametitle');
+var hrname1 = document.getElementById ('hrname1');
+var hrname2 = document.getElementById ('hrname2');
+var hrname3 = document.getElementById ('hrname3');
+var hrname4 = document.getElementById ('hrname4');
+var hrname5 = document.getElementById ('hrname5');
+var hrname6 = document.getElementById ('hrname6');
+var hrname7 = document.getElementById ('hrname7');
+var hrname8 = document.getElementById ('hrname8');
+var hrname9 = document.getElementById ('hrname9');
+var hrname10 = document.getElementById ('hrname10');
+var hrname11 = document.getElementById ('hrname11');
+
+
+
+
+var hrdiscounttitle = document.getElementById('hrdiscounttitle');
+var hrdiscount1 = document.getElementById('hrdiscount1');
+var hrdiscount2 = document.getElementById('hrdiscount2');
+var hrdiscount3 = document.getElementById('hrdiscount3');
+var hrdiscount4 = document.getElementById('hrdiscount4');
+var hrdiscount5 = document.getElementById('hrdiscount5');
+var hrdiscount6 = document.getElementById('hrdiscount6');
+var hrdiscount7 = document.getElementById('hrdiscount7');
+var hrdiscount8 = document.getElementById('hrdiscount8');
+var hrdiscount9 = document.getElementById('hrdiscount9');
+var hrdiscount11 = document.getElementById('hrdiscount11');
 
 
 
@@ -691,8 +782,8 @@ total.onclick = function () {
         two = input2.value*price2.innerHTML-10*zero2.innerHTML; 
         discount2.innerHTML = 10*zero2.innerHTML;
     } else {
-        two = input2.value*price2.innerHTML-1*zero2.innerHTML; 
-        discount2.innerHTML = 1*zero2.innerHTML;
+        two = input2.value*price2.innerHTML-0*zero2.innerHTML; 
+        discount2.innerHTML = 0*zero2.innerHTML;
     }
 
 
@@ -729,7 +820,7 @@ total.onclick = function () {
 
 
     if(cartoonTitle6.innerHTML == 'كرتونة') {
-        six = input6.value*price6.innerHTML-10*zero6.innerHTML; 
+        six = input6.value*price6.innerHTML-15*zero6.innerHTML; 
         discount6.innerHTML = 10*zero6.innerHTML;
 
     } else {
@@ -751,12 +842,12 @@ total.onclick = function () {
 
 
     if(cartoonTitle8.innerHTML == 'كرتونة') {
-        eight = input8.value*price8.innerHTML-10*zero8.innerHTML; 
-        discount8.innerHTML = 10*zero8.innerHTML;
+        eight = input8.value*price8.innerHTML-15*zero8.innerHTML; 
+        discount8.innerHTML = 15*zero8.innerHTML;
 
     } else {
-        eight = input8.value*price8.innerHTML-1*zero8.innerHTML; 
-        discount8.innerHTML = 1*zero8.innerHTML;
+        eight = input8.value*price8.innerHTML-0*zero8.innerHTML; 
+        discount8.innerHTML = 0*zero8.innerHTML;
     }
 
 
@@ -782,6 +873,20 @@ total.onclick = function () {
 
 
 
+    if(cartoonTitle11.innerHTML == 'كرتونة') {
+        eleven = input11.value*price11.innerHTML-10*zero11.innerHTML; 
+        discount11.innerHTML =10*zero11.innerHTML;
+
+    } else {
+        eleven = input11.value*price11.innerHTML-0*zero11.innerHTML; 
+        discount11.innerHTML = 0*zero11.innerHTML;
+    }
+
+
+    
+
+
+
 
 
 
@@ -798,7 +903,7 @@ total.onclick = function () {
 
 
 
-    result.value = one + two + three + four + five + six + seven + eight + nine + ten;
+    result.value = one + two + three + four + five + six + seven + eight + nine + ten + eleven;
 
     var hr1 = document.getElementById('hr1');
     var hr2 = document.getElementById('hr2');
@@ -810,6 +915,7 @@ total.onclick = function () {
     var hr8 = document.getElementById('hr8');
     var hr9 = document.getElementById('hr9');
     var hr10 = document.getElementById('hr10');
+    var hr11 = document.getElementById('hr11');
 
     // inputDiv.style.display = 'none';
     // box1.style.display = 'none';
@@ -836,6 +942,11 @@ total.onclick = function () {
 
 
     if(input1.value != ' ') {
+        hrnametitle.style.display = 'block';
+        hrdiscounttitle.style.display = 'block';
+        hrname1.style.display = 'block';
+        hrdiscount1.style.display = 'block';
+
         input1.style.display = 'none';
         box1.style.display = 'none';
         hr1.style.display = 'none';
@@ -869,6 +980,11 @@ total.onclick = function () {
 
     
     if(input2.value != ' ') {
+        hrnametitle.style.display = 'block';
+        hrdiscounttitle.style.display = 'block';
+        hrname2.style.display = 'block';
+        hrdiscount2.style.display = 'block';
+
         input2.style.display = 'none';
         box2.style.display = 'none';
         hr2.style.display = 'none';
@@ -898,6 +1014,11 @@ total.onclick = function () {
 
 
     if(input3.value != ' ') {
+        hrnametitle.style.display = 'block';
+        hrdiscounttitle.style.display = 'block';
+        hrname3.style.display = 'block';
+        hrdiscount3.style.display = 'block';
+
         input3.style.display = 'none';
         box3.style.display = 'none';
         hr3.style.display = 'none';
@@ -925,6 +1046,11 @@ total.onclick = function () {
     }  
 
     if(input4.value != ' ') {
+        hrnametitle.style.display = 'block';
+        hrdiscounttitle.style.display = 'block';
+        hrname4.style.display = 'block';
+        hrdiscount4.style.display = 'block';
+
         input4.style.display = 'none';
         box4.style.display = 'none';;
         hr4.style.display = 'none';
@@ -951,6 +1077,11 @@ total.onclick = function () {
     }  
 
     if(input5.value != ' ') {
+        hrnametitle.style.display = 'block';
+        hrdiscounttitle.style.display = 'block';
+        hrname5.style.display = 'block';
+        hrdiscount5.style.display = 'block';
+
         input5.style.display = 'none';
         box5.style.display = 'none';
         hr5.style.display = 'none';
@@ -977,6 +1108,11 @@ total.onclick = function () {
     }  
 
     if(input6.value != ' ') {
+        hrnametitle.style.display = 'block';
+        hrdiscounttitle.style.display = 'block';
+        hrname6.style.display = 'block';
+        hrdiscount6.style.display = 'block';
+
         input6.style.display = 'none';
         box6.style.display = 'none';
         hr6.style.display = 'none';
@@ -1003,6 +1139,11 @@ total.onclick = function () {
     }  
 
     if(input7.value != ' ') {
+        hrnametitle.style.display = 'block';
+        hrdiscounttitle.style.display = 'block';
+        hrname7.style.display = 'block';
+        hrdiscount7.style.display = 'block';
+
         input7.style.display = 'none';
         box7.style.display = 'none';
         hr7.style.display = 'none';
@@ -1028,6 +1169,11 @@ total.onclick = function () {
         cash2.innerHTML = result.value;
     }  
     if(input8.value != ' ') {
+        hrnametitle.style.display = 'block';
+        hrdiscounttitle.style.display = 'block';
+        hrname8.style.display = 'block';
+        hrdiscount8.style.display = 'block';
+
         input8.style.display = 'none';
         box8.style.display = 'none';
         hr8.style.display = 'none';
@@ -1053,6 +1199,11 @@ total.onclick = function () {
         cash2.innerHTML = result.value;
     }  
     if(input9.value != ' ') {
+        hrnametitle.style.display = 'block';
+        hrdiscounttitle.style.display = 'block';
+        hrname9.style.display = 'block';
+        hrdiscount9.style.display = 'block';
+
         input9.style.display = 'none';
         box9.style.display = 'none';
         hr9.style.display = 'none';
@@ -1079,6 +1230,11 @@ total.onclick = function () {
     }  
 
     if(input10.value != ' ') {
+        hrnametitle.style.display = 'block';
+        hrdiscounttitle.style.display = 'block';
+        hrname10.style.display = 'block';
+        hrdiscount10.style.display = 'block';
+
         input10.style.display = 'none';
         box10.style.display = 'none';
         hr10.style.display = 'none';
@@ -1101,6 +1257,39 @@ total.onclick = function () {
         quantity10.innerHTML = zero10.innerHTML;
         priceitem10.innerHTML = price10.innerHTML; 
         finaltotal10.innerHTML = quantity10.innerHTML*priceitem10.innerHTML-finaldisc10.innerHTML;
+        cash2.innerHTML = result.value;
+    }  
+
+
+
+    if(input11.value != ' ') {
+        hrnametitle.style.display = 'block';
+        hrdiscounttitle.style.display = 'block';
+        hrname11.style.display = 'block';
+        hrdiscount11.style.display = 'block';
+
+        input11.style.display = 'none';
+        box11.style.display = 'none';
+        hr11.style.display = 'none';
+        nametitle.style.display = 'block';
+        discounttitle.style.display = 'block';
+        name11.style.display = 'block';
+        discount11.style.display = 'block';
+        final1.style.display = 'block';
+        final2.style.display = 'block';
+        final3.style.display = 'block';
+        final4.style.display = 'block';
+        final5.style.display = 'block';
+        final6.style.display = 'block';
+        final7.style.display = 'block';
+        bottle11.innerHTML = cartoonTitle11.innerHTML;
+        print11.style.display = 'block';
+        print11.innerHTML = name11.innerHTML;
+        finaldisc11.innerHTML = discount11.innerHTML;
+        tax11.style.display = 'block';
+        quantity11.innerHTML = zero11.innerHTML;
+        priceitem11.innerHTML = price11.innerHTML; 
+        finaltotal11.innerHTML = quantity11.innerHTML*priceitem11.innerHTML-finaldisc11.innerHTML;
         cash2.innerHTML = result.value;
     }  
 
@@ -1157,6 +1346,12 @@ total.onclick = function () {
         hr10.style.display = 'none';
     }
 
+
+    if(zero11.innerHTML == '0'){
+        item11.style.display = 'none';
+        hr11.style.display = 'none';
+    }
+
     price2.innerHTML = input2.value * price2.innerHTML;
     price3.innerHTML = input3.value * price3.innerHTML;
     price4.innerHTML = input4.value * price4.innerHTML;
@@ -1166,6 +1361,7 @@ total.onclick = function () {
     price8.innerHTML = input8.value * price8.innerHTML;
     price9.innerHTML = input9.value * price9.innerHTML;
     price10.innerHTML = input10.value * price10.innerHTML;
+    price11.innerHTML = input11.value * price11.innerHTML;
     
 
 

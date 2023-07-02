@@ -301,7 +301,7 @@ body {
 }
 
 #price1 , #price2 ,#price3 ,#price4 ,#price5 ,#price6 , #price7 , #price8,
-#price9 ,#price10
+#price9 ,#price10 ,#price11
 {
     color: red;
 }
@@ -324,7 +324,7 @@ body {
 
 
 #inputDiv, #inputDiv2 ,#inputDiv3 ,#inputDiv4 ,#inputDiv5 ,#inputDiv6 ,#inputDiv7,
-#inputDiv8 ,#inputDiv9 ,#inputDiv10 
+#inputDiv8 ,#inputDiv9 ,#inputDiv10 ,#inputDiv11
 {
    height: 40px;
    display: none;
@@ -333,7 +333,7 @@ body {
 }
 
 #inputDiv #input1 ,#inputDiv2 #input2 ,#inputDiv3 #input3 ,#inputDiv4 #input4 ,#inputDiv5 #input5 ,#inputDiv6 #input6 ,#inputDiv7 #input7,
-#inputDiv8 #input8 ,#inputDiv9 #input9 ,#inputDiv10 #input10
+#inputDiv8 #input8 ,#inputDiv9 #input9 ,#inputDiv10 #input10 ,#inputDiv11 #input11
 
 {
     width: 40%;
@@ -350,7 +350,7 @@ body {
 
 
 #box1, #box2 ,#box3 ,#box4 ,#box5 ,#box6 ,#box7,
-#box8 ,#box9 ,#box10 
+#box8 ,#box9 ,#box10 ,#box11
 {
     border: none;
     outline: none;
@@ -361,8 +361,9 @@ body {
     margin-top: 10px;
 }
 
-#one , #two ,#three ,#four ,#five ,#six ,#seven ,#eight ,#nine ,#ten {
+#one , #two ,#three ,#four ,#five ,#six ,#seven ,#eight ,#nine ,#ten ,#eleven {
     display: none;
+   
 }
 
 
@@ -410,12 +411,19 @@ body {
 }
 
 
-#name1 ,#name2 ,#name3,#name4,#name5,#name6,#name7,#name8,#name9,#name10 ,
- #discount1 ,#discount2,#discount3,#discount4,#discount5,#discount6,#discount7,#discount8,#discount9,#discount10 {
+#name1 ,#name2 ,#name3,#name4,#name5,#name6,#name7,#name8,#name9,#name10 , #name11 ,
+ #discount1 ,#discount2,#discount3,#discount4,#discount5,#discount6,#discount7,#discount8,#discount9,#discount10 ,#discount11 {
     display: none;
     font-size: 14px;
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+#hrnametitle ,#hrname1 ,#hrname2 ,#hrname3 ,#hrname4 ,#hrname5 ,#hrname6 ,#hrname7 ,#hrname8 ,#hrname9 ,#hrname10,
+#hrdiscounttitle ,#hrdiscount1 ,#hrdiscount2 ,#hrdiscount3 ,#hrdiscount4 ,#hrdiscount5 ,#hrdiscount6 ,#hrdiscount7 ,#hrdiscount8 ,#hrdiscount9 ,#hrdiscount10 ,#hrdiscount11 {
+
+    display: none;
 }
 
 #finish {
@@ -567,13 +575,23 @@ body {
 
 
 #print1 ,#print2 ,#print3 ,#print4 ,#print5 ,#print6 ,#print7 ,#print8 ,#print9 ,#print10,
-#tax1, #tax2 ,#tax3 ,#tax4 ,#tax5 ,#tax6 ,#tax7 ,#tax8 ,#tax9 ,#tax10
+#tax1, #tax2 ,#tax3 ,#tax4 ,#tax5 ,#tax6 ,#tax7 ,#tax8 ,#tax9 ,#tax10,
+#bottle1 ,#bottle2 ,#bottle3 ,#bottle4 ,#bottle5 ,#bottle6 ,#bottle7 ,#bottle8 ,#bottle9 ,#bottle10,
+#finaldisc1 ,#finaldisc2 ,#finaldisc3 ,#finaldisc4 ,#finaldisc5 ,#finaldisc6 ,#finaldisc7 ,#finaldisc8 ,#finaldisc9 ,#finaldisc10,
+#quantity1 ,#quantity2 ,#quantity3 ,#quantity4 ,#quantity5 ,#quantity6 ,#quantity7 ,#quantity8 ,#quantity9 ,#quantity10,
+#priceitem1 ,#priceitem2 ,#priceitem3 ,#priceitem4 ,#priceitem5 ,#priceitem6 ,#priceitem7 ,#priceitem8 ,#priceitem9 ,#priceitem10,
+#finaltotal1 ,#finaltotal2 ,#finaltotal3 ,#finaltotal4 ,#finaltotal5 ,#finaltotal6 ,#finaltotal7 ,#finaltotal8 ,#finaltotal9 ,#finaltotal10
+
+
+
+
 
 {
   
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
     display: none;
+    margin-bottom: 20px;
 }
 
 
